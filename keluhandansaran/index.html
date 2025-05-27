@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tentang Kami</title>
+    <title>Keluhan Dan Saran</title>
     <link rel="shortcut icon" href="/metrologi.png" type="image/x-icon">
     <link rel="stylesheet" href="/bootstrap.min.css">
     <link rel="stylesheet" href="/style.css">
@@ -12,8 +12,24 @@
 </head>
 
 <body>
-
-
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content rounded-4 overflow-hidden">
+                <div class="modal-header p-3 m-0">
+                    <button type="button" class="btn-close rounded-5 ms-auto me-2 w-fit" data-bs-dismiss="modal"
+                        aria-label="Close">
+                    </button>
+                </div>
+                <div class="modal-body p-0 m-0">
+                    <div class="d-flex flex-column">
+                        <iframe class="w-100" style="height: 82dvh;"
+                            src="https://docs.google.com/forms/d/e/1FAIpQLScA74hShM3K4gMA0nO0PjEIelSAKnjTIELwClxVVksyKctDQQ/viewform?embedded=true"
+                            frameborder="0" marginheight="0" marginwidth="0">Memuat…</iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-xl bg-white shadow w-100" style="z-index: 99; position: fixed;">
         <div class="container-fluid">
@@ -33,7 +49,7 @@
                         <a class="nav-link" aria-current="page" href="/">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/aboutus">Tentang Kami</a>
+                        <a class="nav-link" aria-current="page" href="/aboutus">Tentang Kami</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="/permohonan">Permohonan</a>
@@ -45,7 +61,7 @@
                         <a class="nav-link" aria-current="page" href="/petasebaranuttp">Peta Sebaran UTTP</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/keluhandansaran">Keluhan & Saran</a>
+                        <a class="nav-link active" aria-current="page" href="/keluhandansaran">Keluhan & Saran</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="/surveykepuasanmasyarakat">Survey Kepuasan
@@ -57,77 +73,26 @@
     </nav>
 
     <div class="container pt-5">
-        <div class="d-flex justify-content-center w-100 align-items-center">
-            <img src="/about.jpg" class="pt-5"
-                style="max-height: 500px; width: 100%; object-fit:contain; object-position: center;" alt="">
-
-        </div>
-        <div>
-            <!-- <h1 class="">Tentang Kami</h1> -->
-            <p class="mt-4">Metrologi Legal bertujuan melindungi kepentingan umum dalam hal kebenaran pengukuran
-                sebagaimana tercantum pada pasal 1 UU No. 2 Tahun 1981 tentang Metrologi Legal. UPTD Metrologi Legal
-                merupakan pelaksana teknis dinas di bidang kemetrologian. Kegiatan metrologi legal meliputi tera/tera
-                ulang dan pengawasan alat-alat ukur, takar, timbang dan perlengkapannya (UTTP).
-                <br>
-                <br>
-                Masalah terbesar UPTD Metrologi Legal Kabupaten Barru adalah antrian panjang saat pelayanan dan
-                pendataan yang masih menggunakan sistem manual. Hal ini menimbulkan keluhan dan turunnya antusiasme
-                untuk dilayani karena dianggap sangat mengganggu aktivitas pemilik UTTP . Bermula dari kendala-kendala
-                di atas, tahun 2021 diluncurkanlah inovasi pelayanan publik dengan memanfaatkan tiga aplikasi yakni
-                Google Form, Geographic Information System (GIS) dan Google Data Studio sebagai aplikasi pendukung untuk
-                mempercepat pendataan serta mendapatkan data yang lebih akurat. Digitalisasi pelayanan ini sangat
-                membantu pemilik UTTP.
-                <br><br>
-                Pendataan dapat dilakukan secara online tanpa berinteraksi dengan pemilik UTTP. Selain itu, pelayanan
-                dilakukan secara door to door sehingga pedagang tidak perlu meninggalkan dagangannya, ini dapat
-                menghilangkan kerugian yang dialami oleh pedagang saat harus meninggalkan dagangan untuk mendapatkan
-                pelayanan. Inovasi juga ini menyediakan akses bagi pemilik UTTP dan masyarakat untuk memperoleh
-                informasi publik tentang progress kegiatan peneraan. Inovasi ini juga berkontribusi pada peningkatan
-                pencapaian tera/tera ulang UTTP yang secara automatis ikut meningatkan Pendapatan Asli Daerah saat itu.
-            </p>
-
-
-        </div>
-
-        <div class="w-100 d-flex justify-content-center mt-4">
-            <div class="d-flex flex-column mb-5" style="max-width: 600px;">
-                <a href="https://www.facebook.com/share/r/1E5Kn5rrVn/" target="_blank"
-                    class="mt-4 btn btn-outline-primary py-3 px-4 rounded-5">
-                    <i class="ri-facebook-line"></i>
-                    UPTD Metrologi Barru</a>
-                <a href="https://www.instagram.com/metrologi_barru/?igsh=MWxpMW10Z2o2Y3N1bA%3D%3D#" target="_blank"
-                    class="mt-4 btn btn-outline-secondary py-3 px-4 rounded-5">
-                    <i class="ri-instagram-line"></i>
-                    UPTD Metrologi Barru</a>
-                <a href="https://www.youtube.com/watch?v=fIM-nUDiy0c&ab_channel=TatalaksanaProv.Sulsel" target="_blank"
-                    class="mt-4 btn btn-outline-danger py-3 px-4 rounded-5">
-                    <i class="ri-youtube-line"></i>
-                    Taro Ada Taro Gau Pada KIPP Tingkat Provinsi - 2023</a>
-
-                <a href="https://www.youtube.com/watch?v=P8Nk9ygme5E&ab_channel=UPTDMetrologiLegalBarru" target="_blank"
-                    class="mt-4 btn btn-outline-danger py-3 px-4 rounded-5">
-                    <i class="ri-youtube-line"></i>
-                    Inovasi Pelayanan Publik Taro Ada Taro Gau - 2023</a>
-
-
-                <a href="https://www.youtube.com/watch?v=XrmcBcylL40&ab_channel=UPTDMetrologiLegalBarru" target="_blank"
-                    class="mt-4 btn btn-outline-danger py-3 px-4 rounded-5">
-                    <i class="ri-youtube-line"></i>
-                    Inovasi Pelayanan Publik UPTD Metrologi Legal Kab. Barru - 2022</a>
-                <a href="/Pernyataan identitas inovator.pdf" target="_blank"
-                    class="mt-4 btn btn-outline-secondary py-3 px-4 rounded-5">
-                    <i class="ri-article-line"></i>
-                    Pernyataan Identitas Inovator</a>
-                <a href="/pernyataan kesediaan replikasi inovasi .pdf" target="_blank"
-                    class="mt-4 btn btn-outline-secondary py-3 px-4 rounded-5">
-                    <i class="ri-article-line"></i>
-                    Pernyataan Kesediaan Replikasi Inovasi</a>
+        <div class="row mt-5">
+            <div class="col-md-6 p-0 m-0">
+                <img src="/service2.jpg"
+                    style="max-height: 500px; width: 100%; object-fit: cover; object-position: center;" alt=""
+                    srcset="">
             </div>
-
+            <div class="col-md-6 px-3 d-flex flex-column justify-content-center">
+                <h1 class="">Keluhan & Saran</h1>
+                <p class="mt-4">Haii!, Kami senang sekali mendengar pendapat Anda. Apakah Anda punya ide, saran, atau
+                    mungkin kritik yang membangun? Jangan ragu untuk menuliskannya di bawah ini agar kami bisa terus
+                    berbenah dan memberikan yang terbaik untuk Anda.</p>
+                <button class="mt-4 btn btn-outline-warning py-3 px-4 rounded-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"><i class="ri-survey-line"></i> Form Keluhan dan Saran</button>
+            </div>
         </div>
 
     </div>
 
+
+    </div>
     <script src="/bootstrap.min.js"></script>
 </body>
 
